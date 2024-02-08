@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #000!important;
+  color: white;
+  /* opacity: .8; */
+  /* background: rgb(65,17,80);
+background: radial-gradient(circle, rgba(65,17,80,1) 0%, rgba(49,38,57,1) 71%, rgba(0,0,0,0.9976365546218487) 100%); */
+  /* ackground: linear-gradient(0deg,#09031d,rgba(17,9,41,0)); */
+}

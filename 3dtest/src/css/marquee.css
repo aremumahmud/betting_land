@@ -1,0 +1,15 @@
+.marquee{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.marquee_wrap{
+  position: absolute;
+  top: 100%;
+  background-color: #000;
+}
+
+.marquee img{
+  width: 35%;
+}

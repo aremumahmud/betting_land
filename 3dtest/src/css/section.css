@@ -1,0 +1,30 @@
+.section_wrap{
+  top: 130%;
+  position: absolute;
+}
+
+.section_left img{
+width: 100%;
+}
+
+.section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  
+}
+
+.section .content .title{
+    font-size: 3rem;
+  opacity: 0.9;
+  font-weight: 900;
+  line-height: 3rem;
+  letter-spacing: 1px;
+}
+
+.section .content .subtitle{
+    word-spacing: 1px;
+    margin-top: 20px;
+    line-height: 2rem;
+}
