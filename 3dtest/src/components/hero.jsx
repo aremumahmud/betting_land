@@ -1,6 +1,7 @@
 import '../css/hero.css'
-import image from '../images/back.webp'
+import image from '../images/gg.jpg'
 import { FaTelegram , FaInstagram, FaFacebook,FaLinkedin,FaYoutube,FaDiscord,FaGithub , FaXTwitter}  from 'react-icons/fa6'
+import side from '../images/side.png'
 
 function Hero() {
   return (
@@ -8,6 +9,10 @@ function Hero() {
       className="hero"
       style={{
         background: ` linear-gradient(0deg, rgb(0 0 0 / 55%), rgb(18 18 18 / 74%)),url(${image}),#d3d3d3 50%/cover no-repeat`,
+            backgroundPosition: 'center',
+    backgroundSize:' cover',
+    backgroundRepeat: 'no-repeat',
+
       }}
     >
       <div className="left_hero container_left">
@@ -50,7 +55,9 @@ function Hero() {
           <p>Play Raffle</p>
         </div>
       </div>
-      <div className="right_hero"></div>
+      <div className="right_hero">
+        {/* <img src={side} alt="" /> */}
+      </div>
     </div>
   );
 }

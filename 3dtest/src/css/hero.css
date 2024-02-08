@@ -101,3 +101,12 @@
   font-family: 'Open Sans', sans-serif;
 
 }
+.right_hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_hero img{
+  width: 70%;
+}
